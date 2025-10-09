@@ -8,6 +8,11 @@
 6. Bar raiser Swip line algo based questoin, and 1 LP questoin. Couldn't solve DSA so got rejected. 
 
 
+
+Preparation:
+DSA: Top 100 Leetcode questions amazon (There were not much hard questions as such).
+System Desgin: HelloInterview and jordan has no life.
+
 Behavioural:
 
 Stories that I have told, 
