@@ -4,3 +4,94 @@
 4. Low level desgin(Onsite): Design alexa(Both High level desgin as well low level(class diagram for it)). 
   Basically when we give command to alexa Turn on bulb, till the bulb get's turned on and gives us response back "OK", tell everythign how it works. Serveral cross questions on the desgin I was drawing. + 2 LP questions.
 5. High-level desgin(On site): Design domino's billing system, high level design, majorly focused on, how can we manage the scenario when the internet is not available. discussed how the discount works. + 2 LP + some HR questoins like why amazon, why do I want to change the job.
+
+6. Bar raiser Swip line algo based questoin, and 1 LP questoin. Couldn't solve DSA so got rejected. 
+
+
+Behavioural:
+
+Stories that I have told, 
+	- How we removed the integ environment from our process
+	- communication problem as well as How to ask question
+	- Implementing the caching logic which was a complex task
+	- In browser editor
+  - CLI command AMA
+
+* Any change/improvement you introduced in your previous organisation. (Exception architecture)
+* Reason for leaving the previous company (The work is not that challenging and I am not getting to learn things)
+* Reason for joining Amazon.(done)
+* Are you aware of kind of projects being done at Amazon?
+* One of your biggest technical mistake.
+* Have you ever mentored someone?
+* Your weakenss: I am very workoholic, or once I get interested in something I don’t stop doing that, basically I get addicted to it. 
+* Failure: I failed in the last interview of one of the company in the last round about which I really felt bad and after discussing it with few of my friends I found the problem.
+* mistakes and learnings: How to approach someone for help, I use to go to someone for help without having the full context of the problem. Understanding the exact problem solves the problem halfway.
+
+Exception Hierarchy:
+* Situation: On the Automatic Updates service, the exception hierarchy had confusing names and inconsistent inheritance, leading to scattered catch blocks, noisy logs, and hard-to-diagnose failures.
+* Task: Establish a clear, maintainable exception model that made failure handling consistent and debugging faster, without breaking existing flows.
+* Action: Audited usages and categorized failures (recoverable vs non-recoverable, transient vs permanent), proposed a minimal base hierarchy with intent-revealing names, added error codes, and unified handling via global mappers; shipped via phased refactor with deprecations and regression tests.
+* Result: Reduced duplicate catch sites and log noise, improved time-to-diagnose for common errors, and made onboarding easier; refactor landed with no production regressions.
+
+Solr(Deep dive, biased for action)
+Situation: In my current project for a health insurance client, the search functionality suddenly stopped working, impacting user experience.
+Task: My responsibility was to quickly identify and fix the root cause to restore search functionality with minimal downtime and prevent recurrence.
+Action: I took ownership by thoroughly debugging our application code and verified no recent changes had been made in our repository. Diving deeper, I investigated the DevOps repository and discovered a configuration file for Solr had been changed. I immediately communicated with the DevOps team, asked them to revert this change, and restored the system’s functionality. To prevent future occurrences, I proposed adding the configuration file to their .gitignore so it cannot be unintentionally modified.
+Result: The search functionality was restored promptly, minimizing business disruption. Additionally, my preventive suggestion was accepted, reducing the chance of similar configuration errors in the future and improving process reliability.
+
+DB:
+There are 3 environments that we work on and on one of the environments the DB was getting replaces with and old DB because of which we had to make the changes to that environment again which was causing the problem so we came up with a solution that we will have a central environment where we will make the changes, and we will run the different pipelines by the respective teams to get the changes in to that environment. 
+
+Rackspace:
+We were using rackspace for storing images but that process manual until now, like we would upload the images on the CMS and then once the testing is done on first environment is done we were uploading the image on rackspace and then using that new URL. Now we have automated this process once we upload the image on first env the image will automatically get uploaded to Rackspace and we will  use that new URL going on, in the next environment
+
+SEOSchema
+Automated the process of adding schema to the page.
+
+Automatic-updates
+Marker file automatic updates
+
+AMA
+* Situation: The team built a UI-driven migration tool to upgrade sites between versions in a few clicks, but migrations stalled whenever dependent modules became available later in the process.
+* Task: Eliminate manual restarts and make migrations resilient to dependency resolution timing.
+* Action: Designed and implemented a CLI that recursively resolved module dependencies, polled for readiness, retried idempotently, and resumed the migration pipeline without human intervention; added logs/alerts and dry-run.
+* Result: Reduced failed or stalled migrations by X%, cut migration lead time by Y%, and enabled unattended migrations during off-hours; adoption became the default path across Z teams
+
+Ownership:
+- Give Example of how we created the in browser editor from scratch
+- Implemented Caching in Drupal(using local storage) 
+
+Why Amazon: I’ve used Alexa for years, so the problems feel real—making voice interactions fast, accurate, and reliable at home. The work fits what’s enjoyed most: improving latency and reliability in systems that millions use. Small improvements have big impact, and the culture of ownership and diving deep matches how work is approached—understand it end to end, fix root causes, and measure results.
+
+Ask questions for bar raiser:	 
+- How was your experience working at amazon
+- What are the learning opportunities at amazon
+- How is the release cycle in your team can
+ Customer Obsession: 
+- Start with the customer and work backwards. We should not think only of our profit, but also customer retention because the company performs better when we know if our customers know we are acting for their good.
+- My customer is health insurance company. 
+Ownership
+- Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results.
+- They never say “that’s not my job”.
+- Show how you go above and beyond your job
+Invent and Simplify
+- have innovative solutions to the problem and have many of them beacuse the first one might not work
+Are Right, A Lot
+ - You are mostly right and consider all the angles before taking any decision.
+Learn and Be Curious
+- What I learnt recently: Docker
+Hire and Develop the Best
+- Are you involved in your companies hiring process, and how you mentored any junior
+Biased for action:
+	- how did I take a calculated risk
+
+
+	
+
+
+
+
+
+
+
+
