@@ -1,0 +1,75 @@
+Barclays
+- Inheritance in very detail, how it will work for the access modifiers and thorws Exception.
+- HashMap internal working, can we modify the hash function?
+- Simple SQL
+- Behavioural round (Went well for me but no offer)
+
+
+Epam:
+Sliding window coding question, largest window with no duplicate (1st interveiw) + 1 SQL query moderate level
+- [ ] How indexing work in the db, types of indexing
+- [ ] What is difference between save and persist
+- [ ] atomic integer
+- [ ] What is AOP: (AOP is seperation of logging, security, caching, transaction management from the main business Logic, in SB we use @Aspect, @Before, @After, @Around, @AfterReturning, @AfterThrowing for that)
+- [ ] What is the propagation levels in hibernate: https://medium.com/@224vinod/understanding-spring-transactions-propagation-levels-a-comprehensive-guide-feb8093d3d31
+- [ ] Volatile and Transient keywords in java
+- [ ] What is lazy loading and fast loading in hibernate
+- [ ] Quick sort
+- [ ] CI/CD pipeline
+- [x] Why Consumer group in kafka
+- [x] How to optimise a query which is taking a long time
+- [x] Fein client vs RestTemplate
+- [x] thread that returns a value SB(Callable and Runnable)
+- [x] Mock the method add(a, b)
+- [x] Immutable class
+- [x] Why is agile preferred over waterfall
+- [x] SDLC
+- [x] Monitoring tools I have used in my project
+- [x] Java 8 Local Date time 
+- [x] ACID properties
+- [x] Difference between MicroService and Monolithic arch
+- [x] What is the difference between JDK, JRE, and JVM
+- [x] Hashmap and treeMap difference with time complexity(For both does it allow null)
+- [x] What is autoboxing and unboxing
+- [x] Exception
+- [x] Collection hierarchy
+- [x] Comparator and comparable
+- [x] What is the difference between synchronized method and block?
+- [x] What is the use of volatile keyword?
+- [x] Exception hierarchy
+- [x] Can avoiding open-closed principle still be beneficial in certain situations.
+- [x] Solid principles
+- [x] What happens when two different class loaders load same class twice
+- [x] How many types of class loaders are there - 3 bootstrap, extension, system
+- [x] Internal working of hashMap 
+- [x] Will intermediate operation complete without terminal operation in streams - No because Streams use lazy load, they execute once terminal operations are encountered 
+- [x] Purpose of private method inside method interface
+- [x] Can interface have private method- Yes from java 9 we can have a private method, it is introduced to create a helper method for other default and static methods, in java.
+- [x] String constant pool, where objects and literals are stored.
+- [x] Can we achieve Encapsulation without abstraction - Yes, by creating a private variable and public method to access it.
+- [x] Abstraction and Encapsulation
+- [x] Rain water tapping coding question
+
+
+Xoriant
+- Failed because of Immutable class(instead of private final data member I said final static)
+- asked a SQL query
+- asked multithreading, serialization, example of deadlock, how it actually happens
+- asked a easy coding question and then asked to implement it using streams
+- asked basic OOP things, has-a and is-a relationship
+
+Infosys: 
+- Got an offer
+- Overall process of an spring boot app what all layers it goes through
+- what is IOC and @Autowired
+- What is cursor
+- Git related things(local and remote)
+- Project life cycle things
+
+Citi: (karat: External company who took the first screening interview) -- Theory part was very hard to be honest
+- how to do something before returing a response from a controller
+- how to do something after
+- how to implement paginatin and sorting
+- A rest api call takes so much time, how do we make this process fast
+- coding question (medium) array of string and find a target palindromic string in the array.
+- a 2-d array of characters find a word in it example “apple” you can go right and down
